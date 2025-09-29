@@ -30,6 +30,6 @@ class LoanController extends Controller
     public function processEmi()
     {
         $this->loanService->processEmi();
-        return redirect()->back();
+        return redirect()->back()->with('success', 'EMI processed successfully....!');
     }
 }

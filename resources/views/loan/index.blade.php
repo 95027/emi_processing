@@ -1,10 +1,7 @@
-{{-- @extends('layouts.app')
+@extends('layouts.layout')
 
 @section('content')
-
-@endsection --}}
-
-    <div class="container mx-auto p-4">
+    <div class="">
         <h1 class="text-2xl font-bold mb-4">Loans List</h1>
 
         <table class="w-full border-collapse border border-gray-300">
@@ -35,3 +32,4 @@
             </tbody>
         </table>
     </div>
+@endsection
